@@ -9,6 +9,7 @@ body {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr; 
   grid-template-rows: 2fr 3fr 2fr 2fr 3fr  2fr 2fr;
+  padding:2em 2em 2em 2em;
 }
 .one { background-color: yellowgreen;  grid-column: 1/4;}
 .two { background-color: yellow; grid-row:2/4;}
